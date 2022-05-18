@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@media (max-width:800px){
+    .filter{
+        margin: 3% 10%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    
+    }
+    .filter__all {
+        border: none;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: #FF2253;
+    
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: white;
+    }
+    .filter__bread{
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #FFF7F4;
+    
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: black;
+    }
+    .filter__fruit{
+        color: black;
+        background-color: #FFF1F4;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .filter__drink{
+        color: black;
+        background-color: #F3EEF5;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+}
+@media (min-width:800px){
+    .filter{
+        margin: 1% 10%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin-left:10% 1% ;
+    }
+    .filter__all {
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #FF2253;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: white;
+
+    }
+    .filter__bread{
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: #FFF7F4;
+        margin-left: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: black;
+    }
+    .filter__fruit{
+        color: black;
+        background-color: #FFF1F4;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .filter__drink{
+        color: black;
+        background-color: #F3EEF5;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin-left: 30px;
+    }
+}
+
